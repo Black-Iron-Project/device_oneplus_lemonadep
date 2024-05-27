@@ -12,6 +12,9 @@ DEVICE_PATH := device/oneplus/lemonadep
 # Assert
 TARGET_OTA_ASSERT_DEVICE := lemonadep|OnePlus9Pro|oneplus9pro
 
+# Camera
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.lahaina
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
