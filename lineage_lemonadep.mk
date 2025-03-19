@@ -18,7 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # BkackIron
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR := true
 BLACKIRON_BUILDTYPE := Official
 BLACKIRON_MAINTAINER := delano-git
